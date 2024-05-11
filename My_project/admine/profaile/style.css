@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hedNav img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.hedNav{
+    margin-left: 20px;
+    height: 80px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.lonom{
+    margin-left: 20px;
+    width: 10vw;
+    height: 10%;
+}
+
+.content{
+    display: flex;
+    background-color: aqua;
+}
+
+.navBare ul{
+    background-color: brown;
+    height: 80vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navBare ul li a{
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+.heder{
+    background-color: brown;
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+}
+.FOT{
+    position: absolute;
+    top: 90vh;
+    background-color: brown;
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+}
+.content1{
+   width: 85vw;
+   height: 80vh;
+  overflow-y: auto;
+   display: flex;
+   flex-wrap: wrap;
+
+   margin-left: 136PX;
+   gap: 20px;
+   margin-top: 30px;
+   
+}
+.abdo{
+    background-color: aquamarine;
+    width: 70%;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.matech{
+    width: 20vw ;
+    height: 20vh;
+    margin: 3px;
+    background-color: rgb(224, 94, 18);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 9px;
+}
+.boton input{
+    width: 20%;
+    border-radius: 4px;
+    background-color: brown;
+   
+}
